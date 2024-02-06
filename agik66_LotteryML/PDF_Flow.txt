@@ -1,0 +1,39 @@
++---------------------+          +---------------------+          +---------------------+
+| Import Libraries    |          | Mount Google Drive  |          | Print ASCII Art     |
+| (NumPy, TensorFlow, |          | (for data access)   |          | Intro               |
+| Keras, etc.)        |          +---------------------+          +---------------------+
++---------------------+                       |                               |
+                           +-----------------+-------------------------------+
+                           |
+                           v
++---------------------+          +---------------------+
+| Load and Preprocess | -------->| Create Neural Model |
+| Lottery Data        |          | (Embedding + LSTM)  |
++---------------------+          +---------------------+
+          |                              |
+          v                              |
++---------------------+                  |
+| Split Data into     |                  |
+| Train and Validate  |                  |
+| Sets                |                  |
++---------------------+                  |
+          |                              |
+          v                              |
++---------------------+          +---------------------+
+| Train Neural Model | -------->| Predict Numbers     |
+| (Early Stopping,   |          | on Validation Set   |
+| Learning Rate       |          |                     |
+| Reduction)          |          +---------------------+
++---------------------+                       |
+          |                                   |
+          v                                   |
++---------------------+                       |
+| Print Predicted     |                       |
+| Numbers             |                       |
++---------------------+                       |
+          |                                   |
+          v                                   |
++---------------------+                       |
+| Main Function       |                       |
+| Execution           |                       |
++---------------------+                       |

@@ -1,0 +1,38 @@
+Input Data (Integer Indices)
+      |
+      v
++----------------------+
+|   Embedding Layer    |   --->   Word Vectors (64 dimensions)
++----------------------+            |
+      |                             v
+      |                    +----------------+
+      |                    |   LSTM Layer   |   --->   Patterns
+      |                    +----------------+            |
+      |                             |                    v
+      |                             |
+      |                    +----------------+
+      |                    |   Dropout      |   --->   Simplified Patterns
+      |                    +----------------+            |
+      |                             |                    v
+      |                             |
+      |                    +----------------+
+      |                    |   LSTM Layer   |   --->   Final Pattern
+      |                    +----------------+            |
+      |                             |                    v
+      |                             |
+      |                    +----------------+
+      |                    |   Dropout      |   --->   Simplified Final Pattern
+      |                    +----------------+            |
+      |                             |                    v
+      |                             |
+      |                    +------------------+
+      |                    |   Dense Layer    |   --->   Predicted Numbers
+      |                    +------------------+
+      |                             |
+      |                             v
+      |                +----------------------+
+      |                | Compile (Loss, Optimizer, Metrics) |
+      |                +----------------------+
+      |                             |
+      v                             v
+   Model Training             Model Prediction
