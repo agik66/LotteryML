@@ -20,3 +20,15 @@ LotteryML is a Python project that leverages the power of LSTM neural networks t
 
    ```bash
    pip install -r requirements.txt
+
+##Support
+
+If you find agik66_LotteryML interesting or useful and would like to support the project, here are a few ways you can do so:
+
+Consider making a small donation using cryptocurrency to show your appreciation. Your support helps in the development and maintenance of this magical project. The following are the donation addresses:
+
+- **BTC (Bitcoin):** `13NUSU6q6mheb54FVyi3oD9CPV5tJWCfPG`
+- **ERGO:** `9g77R7maUqbGVMsPAHG71pA7TgiKWkYFo71BSSk4fJrn8D4RKxr`
+
+
+Your support means a lot and contributes to the continued development of agik66_LotteryML. Thank you for being a part of the magic! 🌟
